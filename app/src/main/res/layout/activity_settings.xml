@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySettings">
+    <TextView
+        android:id="@+id/settings_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_text"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/settings_text">
+        <RadioButton
+            android:id="@+id/checkbox_night_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/night_theme_text"
+            android:textSize="@dimen/night_theme_text_size"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
